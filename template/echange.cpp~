@@ -1,0 +1,9 @@
+#include "echange.h"
+
+ void faire_un_echange(T &e1, T&e2){
+ 
+ }
+ bool min(T const e1, T const e2){
+ 
+ 
+ }

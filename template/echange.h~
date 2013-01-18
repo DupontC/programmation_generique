@@ -1,0 +1,19 @@
+
+#ifndef ____echange__
+#define ____echange__
+
+#include <iostream> // pour std::cout
+#include <string> // pour std::string
+#include <vector>
+#include <fstream>
+
+template <typename T>
+
+ void echange(T &e1, T&e2){
+ 	T tmp;
+ 	tmp=e1;
+ 	e1=e2;
+ 	e2=tmp;
+ }
+ 
+#endif
