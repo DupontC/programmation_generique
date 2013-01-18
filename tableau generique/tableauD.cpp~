@@ -1,0 +1,32 @@
+#include "tableauD.h"
+
+template <typename T,unsigned int tailleInst>
+TableauD<T,unsigned int>::TableauD(){
+	 monTableau = new T[10];
+	 size=10;
+}
+
+template <typename T,unsigned int tailleInst>
+TableauD<T,unsigned int>::TableauD(const TableauD<T,unsigned int>&){}
+
+template <typename T,unsigned int tailleInst>
+TableauD<T,unsigned int>::TableauD(int uneTaille){
+	 monTableau = new T[uneTaille];
+	 size=uneTaille;
+}
+
+template <typename T,unsigned int tailleInst>
+bool TableauD<T,unsigned int>::ajouter(T element){
+
+ return true;
+}
+
+template <typename T,unsigned int tailleInst>
+T & TableauD<T,unsigned int>::operator [](int){}
+
+template <typename T,unsigned int tailleInst>
+TableauD<T,unsigned int>::~TableauD(){}
+
+template <typename T,unsigned int tailleInst>
+bool TableauD<T,unsigned int>::agrandireTabGenerique1(){}
+
