@@ -1,0 +1,23 @@
+#ifndef ____objetFonction__
+#define ____objetFonction__
+
+#include <iostream> // pour std::cout
+#include <string> // pour std::string
+#include <vector>
+#include <fstream>
+
+
+class ObjetFonctions{
+
+public:
+//construteur
+ ObjetFonctions();
+ //methode pour l'utilisation de l'objet fonction
+ int operator () (int val);
+private:
+//varaible de class
+ int nbAppel; 
+ 
+};
+
+#endif
